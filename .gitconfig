@@ -1,0 +1,17 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Karthik Sukumar
+	email = karthik.n.sukumar@gmail.com
+[merge]
+	tool = bc3
+[mergetool]
+	bc3 = trustExitCode
+[diff]
+	tool = bc3
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[difftool]
+	prompt = false
+[push]
+	default = matching
