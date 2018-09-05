@@ -2,11 +2,14 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH="/home/ck/.oh-my-zsh"
+#export ZSH="/home/ck/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
+
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
+ZSH_THEME="ys"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -51,14 +54,14 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
-plugins=(zsh-autosuggestions)
+# plugins=(zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
 # Add bash aliases.
-if [ -f ~/.bash_aliases ]; then
-    source ~/.bash_aliases
-fi
+#if [ -f ~/.bash_aliases ]; then
+#    source ~/.bash_aliases
+#fi
 
 # User configuration
 
@@ -86,10 +89,10 @@ fi
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="mate ~/.zshrc"
+alias ohmyzsh="mate ~/.oh-my-zsh"
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 # export PATH=$PATH:~/os161/bin
-export PATH="${PATH}:/usr/local/gcc_arm/gcc-arm-none-eabi-6-2017-q2-update/bin"
+# export PATH="${PATH}:/usr/local/gcc_arm/gcc-arm-none-eabi-6-2017-q2-update/bin"
 export EDITOR=nvim

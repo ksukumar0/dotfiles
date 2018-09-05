@@ -1,8 +1,5 @@
 #alias ls = 'ls -GFh'
 
-#alias a = 'git add'
-alias ls='ls -GFh'
-
 alias ga='git add'
 alias gaa='git add .'
 alias gc='git commit'
