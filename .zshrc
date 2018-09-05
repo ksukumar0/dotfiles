@@ -59,9 +59,9 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Add bash aliases.
-#if [ -f ~/.bash_aliases ]; then
-#    source ~/.bash_aliases
-#fi
+if [ -f ~/.bash_aliases ]; then
+    source ~/.bash_aliases
+fi
 
 # User configuration
 
