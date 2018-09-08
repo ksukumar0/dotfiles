@@ -6,3 +6,5 @@ Config files for Linux/MacOS Command line applications
 - vim
 - Tmux
 - Ranger
+- bash aliases
+- bash
