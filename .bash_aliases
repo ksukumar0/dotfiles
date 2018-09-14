@@ -1,3 +1,4 @@
+FILEBROWSER=nautilus
 #alias ls = 'ls -GFh'
 
 alias ga='git add'
@@ -16,6 +17,9 @@ alias cd..="cd .."
 alias cd...="cd ../.."
 alias cd....="cd ../../.."
 alias dud="du -d 1 -h | gsort -hr"
+
+# for opening files
+alias op="${FILEBROWSER}"
 
 PROJ="$HOME/Documents/Projects/"
 SCRATCHPAD="$HOME/Documents/Projects/scratchpad"
