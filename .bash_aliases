@@ -21,8 +21,16 @@ alias dud="du -d 1 -h | gsort -hr"
 # for opening files
 alias op="${FILEBROWSER}"
 
+# Less command line options
+alias more="less"
+alias less="less -N -M -J -i"
+# -J shows Status
+# -N shows line numbers
+# -M shows long prompt
+# -i ignores case in search patterns
+
 PROJ="$HOME/Documents/Projects/"
-SCRATCHPAD="$HOME/Documents/Projects/scratchpad"
+TUM="$HOME/Documents/Master_TUM/"
 
 # FileSearch
 function f() { find . -iname "*$1*" ${@:2} }

@@ -92,7 +92,6 @@ fi
 alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-# export PATH=$PATH:~/os161/bin
-# export PATH="${PATH}:/usr/local/gcc_arm/gcc-arm-none-eabi-6-2017-q2-update/bin"
 export EDITOR=nvim
+
+source ~/.bashrc
