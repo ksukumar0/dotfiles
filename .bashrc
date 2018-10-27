@@ -6,3 +6,5 @@
 # Only for less if highlight is found
 export LESSOPEN="| $(which highlight) %s --out-format xterm256 --line-numbers --quiet --force --style solarized-light"
 export LESS=" -R"
+
+PATH=$PATH:/usr/local/texlive/2018/bin/x86_64-linux

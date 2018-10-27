@@ -23,7 +23,7 @@ alias op="${FILEBROWSER}"
 
 # Less command line options
 alias more="less"
-alias less="less -N -M -J -i"
+alias less="less -M -J -i"
 # -J shows Status
 # -N shows line numbers
 # -M shows long prompt
