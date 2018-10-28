@@ -31,6 +31,7 @@ alias less="less -M -J -i"
 
 PROJ="$HOME/Documents/Projects/"
 TUM="$HOME/Documents/Master_TUM/"
+BWB="$HOME/Documents/karthik/Deutschland/Job_Bewerbungen"
 
 # FileSearch
 function f() { find . -iname "*$1*" ${@:2} }
@@ -42,5 +43,5 @@ function mkcd() { mkdir -p "$@" && cd "$_"; }
 # Aliases
 alias cppcompile='c++ -std=c++11 -stdlib=libc++'
 
-alias zshconfig="subl ~/.zshrc"
-alias envconfig="subl ~/Projects/config/env.sh"
+alias zshconfig="nvim ~/.zshrc"
+alias envconfig="nvim ~/Projects/config/env.sh"
