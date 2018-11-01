@@ -44,8 +44,8 @@ function mkcd() { mkdir -p "$@" && cd "$_"; }
 # Aliases
 alias cppcompile='c++ -std=c++11 -stdlib=libc++'
 
-
 alias zshconfig="${EDITOR} ~/.zshrc"
 alias envconfig="${EDITOR} ~/Projects/config/env.sh"
 alias bashconfig="${EDITOR} ~/.bashrc"
 alias bashalias="${EDITOR} ~/.bash_aliases"
+alias zs="source ~/.zshrc"
