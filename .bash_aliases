@@ -24,15 +24,15 @@ alias op="${FILEBROWSER}"
 
 # Less command line options
 alias more="less"
-alias less="less -M -J -i"
+alias less="less -J -N -M -i"
 # -J shows Status
 # -N shows line numbers
 # -M shows long prompt
 # -i ignores case in search patterns
 
-PROJ="$HOME/Documents/Projects/"
-TUM="$HOME/Documents/Master_TUM/"
-BWB="$HOME/Documents/karthik/Deutschland/Job_Bewerbungen"
+PROJ="${HOME}/Documents/Projects/"
+TUM="${HOME}/Documents/Master_TUM/"
+BWB="${HOME}/Documents/karthik/Deutschland/Job_Bewerbungen"
 
 # FileSearch
 function f() { find . -iname "*$1*" ${@:2} }

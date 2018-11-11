@@ -1,4 +1,3 @@
-mkdir -p ~/.config/htop; cat <<EOF | tee ~/.config/htop/htoprc
 fields=0 48 17 18 38 39 40 2 46 47 49 1 
 sort_key=46
 sort_direction=1
@@ -22,4 +21,3 @@ left_meters=CPU Memory Swap
 left_meter_modes=2 2 2 
 right_meters=LoadAverage Tasks Uptime 
 right_meter_modes=2 2 2
-EOF
