@@ -8,3 +8,4 @@ export LESSOPEN="| $(which highlight) %s --out-format xterm256 --line-numbers --
 export LESS=" -R"
 
 #PATH=$PATH:/usr/local/texlive/2018/bin/x86_64-linux
+PATH=$PATH:/opt/gcc-arm-none-eabi-8-2018-q4-major/bin
