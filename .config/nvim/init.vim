@@ -22,9 +22,9 @@ set backspace=indent,eol,start
 
 set clipboard+=unnamedplus "Sets the copy buffer to global clipboardW7
 set expandtab       " expand tabs to spaces
-set shiftwidth=4    " spaces to shift when re-indenting
-set tabstop=4       " number of spaces to insert when tab is pressed
-set softtabstop=4   " backspace deletes indent
+set shiftwidth=3    " spaces to shift when re-indenting
+set tabstop=3       " number of spaces to insert when tab is pressed
+set softtabstop=3   " backspace deletes indent
 set smartindent     " indent based on filetype
 
 set hlsearch
@@ -108,6 +108,10 @@ xnoremap <leader>; :s/;$/ {}
 nnoremap <leader><Space> :%s/\s\+$//e<CR>
 nnoremap <leader>s :%s///g<Left><Left>
 xnoremap <leader>s :s///g<Left><Left>
+
+" Copy mappings
+nnoremap <silent> <leader>c :let @+=expand('%:p')<CR>
+nnoremap <silent> <leader>C :let @+=expand('%')<CR>
 
 " Mappings to emulate sublime move line up one and reindents it
 nnoremap <A-j> :m .+1<CR>==

@@ -2,6 +2,7 @@ set nocompatible
 filetype plugin indent on
 
 syntax on
+set ttymouse=sgr
 set mouse=a
 
 "source ~/.vim/colors/neodark.vim
@@ -20,11 +21,11 @@ set laststatus=2
 
 set backspace=indent,eol,start
 
-set clipboard+=unnamedplus "Sets the copy buffer to global clipboardW7
+set clipboard=unnamedplus "Sets the copy buffer to global clipboardW7
 set expandtab       " expand tabs to spaces
-set shiftwidth=4    " spaces to shift when re-indenting
-set tabstop=4       " number of spaces to insert when tab is pressed
-set softtabstop=4   " backspace deletes indent
+set shiftwidth=3    " spaces to shift when re-indenting
+set tabstop=3       " number of spaces to insert when tab is pressed
+set softtabstop=3   " backspace deletes indent
 set smartindent     " indent based on filetype
 
 set hlsearch

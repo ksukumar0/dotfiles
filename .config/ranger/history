@@ -1,0 +1,34 @@
+
+search measdr
+search fswm
+open_with 
+open_with nvim
+search log
+search rl500wb
+search rl500wbfpga
+search rl500
+search 
+search q
+search lib
+searc
+search mea
+search driv
+search fsw
+shell 
+mark L*
+unmark L*
+mark L3.*
+mark L\d.*
+unmark *
+search fsp
+find makeit.sh
+search sa
+search driver
+shell kk
+find smbus*
+search drive
+search es
+search rs
+search measdriv
+search osabs
+delete
