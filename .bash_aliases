@@ -9,7 +9,6 @@ alias gs='git status'
 alias gss='git status -sb'
 alias gl='git lg'
 alias gp='git push'
-alias sshcse='ssh z3196996@wagner.cse.unsw.edu.au'
 # alias gcc1='/usr/local/Cellar/opt/llvm/clang'
 alias ra="ranger"
 alias htop="sudo htop"
@@ -17,7 +16,10 @@ alias cd.="cd ."
 alias cd..="cd .."
 alias cd...="cd ../.."
 alias cd....="cd ../../.."
-alias dud="du -d 1 -h | gsort -hr"
+alias dud="du -d 1 -h | sort -hr"
+
+alias rgc="rg -tcpp "
+
 
 # for opening files
 alias op="${FILEBROWSER}"
