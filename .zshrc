@@ -55,8 +55,8 @@ ZSH_THEME="ys"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     git
-    zsh-autosuggestions
-    zsh-syntax-highlighting
+    #zsh-autosuggestions
+    #zsh-syntax-highlighting
     )
 # plugins=(zsh-autosuggestions)
 
@@ -87,6 +87,7 @@ fi
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 export EDITOR=nvim
+export PATH=~/.local/bin:"$PATH"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -98,4 +99,4 @@ alias zshconfig="$EDITOR ~/.zshrc"
 alias ohmyzsh="$EDITOR ~/.oh-my-zsh"
 
 
-source ~/.bashrc
+#source ~/.bashrc

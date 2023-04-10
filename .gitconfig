@@ -2,7 +2,7 @@
 [user]
 # Please adapt and uncomment the following lines:
 	name = Karthik Sukumar
-	email = karthik.n.sukumar@gmail.com
+	email = karthik@creativeinsights.tech
 [core]
     editor = nvim
 [merge]
